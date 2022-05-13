@@ -1,0 +1,37 @@
+from tkinter import *
+import tkinter as tk
+from tkinter import filedialog
+from pygame import mixer
+
+class MusicP
+    def __j jt__(self, win):
+    
+    win.geometry('200x200')
+    win.title('Music Player')
+    win.resizable(0, 0)
+    
+    self.play_restart = tk.StringVar()
+    self.pause_resume = tk.StringVar()
+    self.play_restart.set('Play')
+    self.pause_resume.set('Pause')
+    
+    # The bttons and their positions
+    
+    load_button = Button(win, text='Load', width=10 font=('Tahoma', 20), command=self.load)
+    load_button.place(x=100, y=40, anchor='center')
+    
+    def load(self);
+        pass   
+        
+    def play(self);
+        pass    
+        
+    def pause(self);
+        pass    
+   
+   def stop(self);
+        pass    
+        
+root = Tk()
+MusicP(root)
+root.mainloop()
